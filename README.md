@@ -1,3 +1,25 @@
+
+<Idoctype html> <html> <head> <meta charset="UTF-8" /> <title>ollyt o 3.9</title>
+ <link href="css/style.css" rel="stylesheet" type="text/css" />
+<style type="text/css"> <l-- .set_style_link text-decoration: none; font-weight: bold; -> </style>
+ Jae jla header.php
+</head>
+<body> <div class="divTable" > <div class="divTableRow"> <div class="divTableCell"> <header class="divTable"> <div class="divTableRow"> <div class="divTableCell"> culw <se$9)</div> </div>. </header> <nav class="divTable"> <ul class="divTableRow"> <li class="divTableCell"> <a class="set_style_link" href="index.php"> ol ato</a> </li> <li class="divTableCell"> <a class="set _style_link" href="#"> eutw ,s oug-ac</a> </li> <li dass="divTableCell"> <a class="set_style_link" href="#"> culw a sg,g</a> </li> <li class="divTableCell"> <a class="set_style_link" href="#">lo o,l,></a> </li> <li cass="divTableCel"> <a class="set _style_link" href="#">la bl,k</a> </li> </ul> </nav> <section class="divTable"> <section class="divTableRow"> <aside class="divTableCell" style="width: 25%;" > ulw oliSol Jacy </aside> <section dlass=-"divTableCell" style= "wvidth: 75%;" > </section> </section> </section> <footer class="divTable"> <section class="divTableRow"> <article class= divTableCell"> cuLw Ssiso s ssto cuslo</article> </section> </footer> </div> </div> </div> ss Ji footer.php </body>
+ s/html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div align="center">
 
   <img src="https://user-images.githubusercontent.com/62047147/195847997-97553030-3b79-4643-9f2c-1f04bba6b989.png" alt="logo" width="100" height="auto" />

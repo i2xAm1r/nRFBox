@@ -1,31 +1,4 @@
-p:Arynbtw:mr.bbg12]
-183[https://www.dcuniverseinfinite.com/:arynbtwvb@gmail.com:Badboy4030#]
-184[https://www.instagram.com/:ArynLEXA:mr.bbg021]
-186[https://mega.nz/confirmQ29uZmlybUNvZGVWMgK9hs0MCgAKaF9zPynDzXlvb29jcmV4QGdtYWlsLmNvbQlhcnluIGJ0d-4NTw55Nkul:yooocrex@gmail.com:badboy4030]
-187[https://login.buffer.com/signup:yooocrex@gmail.com:Badboy4030]
-188[https://account.buffer.com/:yooocrex@gmail.com:Badboy4030]
-189[https://megapari.com/:524956013:Artin007]
-190[https://megapari.com/:yooocrex@gmail.com:Mr.bbg12]
-191[https://www.epicgames.com/id/login/epic:meripsg22@proton.me:mericheater81]
-192[https://www.epicgames.com/id/register/epic:ricktetra121@outlook.com:mr.bbg12]
-194[https://sakha.epolice.ir/portal/login:0071594434:Mr.bbg12]
-195[https://www.epicgames.com/id/login/epic:jkrand111@outlook.com:mericheater81]
-196[https://kaian.ir/product/haylou-x1-neo/:09106693074:Badboy4030]
-203[https://digimovie.vip/:Arynbtw:badboy4030]
-205[https://www.epicgames.com/id/register/epic:ricktetra124@outlook.com:mr.bbg12]
-206[https://nextpay.org/nx/auth/signin:09106693074:mr.bbg12]
-208[https://www.instagram.com/:rickshop.ir:Callmecrx123]
-209[https://mmddownload.ir/checkout/:yooocrex@gmail.com:badboy4030]
-210[https://www.instagram.com/:Neogame.ir:Amir90o]
-211[https://www.instagram.com/:aryan_do:mr.bbg12]
-212[https://www.instagram.com/:aryan._do:mr.bbg12]
-214[https://login.live.com/ppsecure/post.srf:arynjohnston855@gmail.com:mr.bbg12]
-215[https://razerid.razer.com/:yooocrex@gmail.com:mr.bbg12]
-217[https://discord.com/register:arynjohnston855@gmail.com:mr.bbg12]
-0[https://www.blackhatworld.com/register/register:Arynbtw:Badboy4030]
-
-
-
+https://drive.google.com/file/d/1H0rJugZzqO30m-j65fAuuGg2FlFw_ogt/view?usp=drivesdk
 
 
 

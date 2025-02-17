@@ -1,12 +1,13 @@
 
-<Idoctype html> <html> <head> <meta charset="UTF-8" /> <title>ollyt o 3.9</title>
- <link href="css/style.css" rel="stylesheet" type="text/css" />
-<style type="text/css"> <l-- .set_style_link text-decoration: none; font-weight: bold; -> </style>
- Jae jla header.php
-</head>
-<body> <div class="divTable" > <div class="divTableRow"> <div class="divTableCell"> <header class="divTable"> <div class="divTableRow"> <div class="divTableCell"> culw <se$9)</div> </div>. </header> <nav class="divTable"> <ul class="divTableRow"> <li class="divTableCell"> <a class="set_style_link" href="index.php"> ol ato</a> </li> <li class="divTableCell"> <a class="set _style_link" href="#"> eutw ,s oug-ac</a> </li> <li dass="divTableCell"> <a class="set_style_link" href="#"> culw a sg,g</a> </li> <li class="divTableCell"> <a class="set_style_link" href="#">lo o,l,></a> </li> <li cass="divTableCel"> <a class="set _style_link" href="#">la bl,k</a> </li> </ul> </nav> <section class="divTable"> <section class="divTableRow"> <aside class="divTableCell" style="width: 25%;" > ulw oliSol Jacy </aside> <section dlass=-"divTableCell" style= "wvidth: 75%;" > </section> </section> </section> <footer class="divTable"> <section class="divTableRow"> <article class= divTableCell"> cuLw Ssiso s ssto cuslo</article> </section> </footer> </div> </div> </div> ss Ji footer.php </body>
- s/html>
-
+include (inacludes/header,php"); <form name= "register" [action="action _register.php'" method="GET <table style= "width: 50%;" border="0"" style= margin-left; auto;margin-right: auto;" >
+ <tr? <td style="width: 40%;"> ol <span style=' color: red;" >*</span> </td> <td style="width: 60%;"> <input type="text"id="realnarne" nare="realname" |> </td> <|tr>
+ <tr> <td>sy,5 ol <span style= color: red;">*</span> </td> <td> <input type= "text" style= 'text-align: left;" id=' username name=' username" /></td> <tr>
+ <tr> <td>_ac aals <span style="color: red;">*</span> </td> <td> <input type="password" style="text-align: left;"id="password" name="password" /><|td> <t>
+ <t> <td>_sc aals lS <span style="color: red;">*</span> </td> <td> <input type="password" style="text-align: left," id="repassword" name="repassword" /|> <| </tr>
+ <tr> <td>o59>SJ com <span style="color: red;">*</span></td> <td> <input type= "text" style="text-align: left;" id="email" name="email" ></td> <It>
+ <t> <td><br /><br /></td> <td><input type="submit" value="pl cw" /> &nbsp;&nbsp;&nbsp; <input type="reset" value="__>"/></td> <tr>
+ </table> </form>
+ <?php include ("includes/footer.php");
 
 
 

@@ -1,15 +1,7 @@
 
-include (inacludes/header,php"); <form name= "register" [action="action _register.php'" method="GET <table style= "width: 50%;" border="0"" style= margin-left; auto;margin-right: auto;" >
- <tr? <td style="width: 40%;"> ol <span style=' color: red;" >*</span> </td> <td style="width: 60%;"> <input type="text"id="realnarne" nare="realname" |> </td> <|tr>
- <tr> <td>sy,5 ol <span style= color: red;">*</span> </td> <td> <input type= "text" style= 'text-align: left;" id=' username name=' username" /></td> <tr>
- <tr> <td>_ac aals <span style="color: red;">*</span> </td> <td> <input type="password" style="text-align: left;"id="password" name="password" /><|td> <t>
- <t> <td>_sc aals lS <span style="color: red;">*</span> </td> <td> <input type="password" style="text-align: left," id="repassword" name="repassword" /|> <| </tr>
- <tr> <td>o59>SJ com <span style="color: red;">*</span></td> <td> <input type= "text" style="text-align: left;" id="email" name="email" ></td> <It>
- <t> <td><br /><br /></td> <td><input type="submit" value="pl cw" /> &nbsp;&nbsp;&nbsp; <input type="reset" value="__>"/></td> <tr>
- </table> </form>
- <?php include ("includes/footer.php");
-
-
+"(;برخى از فيلدها مقداردهى نشده است exit) $email = $ _ POST['email']; Srepassword = $ POST['repassword']; Spassword = $ POST['password']; Susemame = $ POST['username"]; srealname = $ POST['realname"]; ""o. if (isset($ POSTTreaname"]) &8 lempty6 POST['realname']) isset$ POSTT' l) ₹.$8 lempty($._ POSTI' """")) isset($ POSTI' isset($ POSTI isset($ POSTI usemame"]) && lempty(s PoSTI'username']) I && lempty(s POSTI "]) &8 lempty($. POSTI' ٥٠ ٢ زول
+ <Pphpy "clude ("includes/header.php");
+ در زبخش هاي مشخص شده نام
 
 
 

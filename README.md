@@ -1,5 +1,3 @@
-https://drive.google.com/file/d/1H0rJugZzqO30m-j65fAuuGg2FlFw_ogt/view?usp=drivesdk
-
 
 
 <div align="center">

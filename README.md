@@ -1,10 +1,20 @@
 
-"(;برخى از فيلدها مقداردهى نشده است exit) $email = $ _ POST['email']; Srepassword = $ POST['repassword']; Spassword = $ POST['password']; Susemame = $ POST['username"]; srealname = $ POST['realname"]; ""o. if (isset($ POSTTreaname"]) &8 lempty6 POST['realname']) isset$ POSTT' l) ₹.$8 lempty($._ POSTI' """")) isset($ POSTI' isset($ POSTI isset($ POSTI usemame"]) && lempty(s PoSTI'username']) I && lempty(s POSTI "]) &8 lempty($. POSTI' ٥٠ ٢ زول
- <Pphpy "clude ("includes/header.php");
- در زبخش هاي مشخص شده نام
 
-
-
+<?php pelude ( 'indludes/header.php")i <script type= text/javascript"> -د/٥ function check empty()
+ كازيرى وادﺸده دريافت مى شود و در صورتى كه خالى باشد ياييام خطاى وارد كردن تام كازيرى الزامى است' كارير امواجه مى شود در غير ايتصورت يس از تأبيد كارير از صحت اطلاعات يه پروتده وب پوياى register.php _ action قل مى شود.
+ var username= + usemame- documentg getElementByid( username ").value; - (usemame= كل ال (وارد كردن نام كاريري الزامي استalert) seاه
+ "(;از صحت اطلاعات وارد زشده اطمينان داريد؟ (" confirm varr= if(rs= tue)( doaument.register.submit)i;
+ SScipt> or/ ١> method-"POST" register.php" action="action "register" mame= <fom <table st/e- "width: 50%;" border="O" style= "margin-left: auto;margin-right; autoi
+ ﺣ٢<t <|td> <|span? red;">* style="color; <span نام واقعي 40%;" style-"width: <td ز</td> |> name-"realname" id="realname" "text" type= <input 60%o;"> style="width: <td ﺣ</t
+ ﺣ<tr </td> <|span> red;">* style="color: <span نام كاربريحtd <td> <input type= "text" style="text-align: left;" id="username ﺣ٣</
+ name="username)
+١ﺣdﺎﺃ><ﺍ
+ﺣtrﻜ <|td> red;">*<|span> "color: style= <span كلمه عبورحtd /></td> ١Password" name= Password" id- left; 'text-lign: style=' password" type= <input ﺣtdﻜ ﺣt ٢t د<|td <|span> >* red;" "color: style- <span تكرار كلمه عبورح<td <td> <input type- "password" style="text-align: left;" id="repassword" name="repassword" I> <|td> </ tr </td> </span> red;">* style-"color: <span پست الكمرونيكي خd؛ك <td> <input type="text" style-"text-align; left;" id-"email" name="email" > <|td> </tr>
+ نوع دكمه را از submitيﻪ button اتغيير مى دهيم _empty();"/> u"[onclick="check نامtype-(buton"lvalue-" <input >ا"جديدvalue=" "reset" type= <input &nbsp;&nbsp;&nbsp; <td> <br |> <br |></td> ح<d ﺣ<r ﺣ</td /
+ </table> </form>
+ وقتى كارير روى دكمه ثبت نام كليک كند تلح O)اempt check فراخوانى مى شودا تا مراحل اعتبار ستجى در طرف سرويس كيرنده اتجام شود،
+ < php indlude ("includes/footer.php"); ?
+ ٩
 
 
 

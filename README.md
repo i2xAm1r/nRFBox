@@ -1,4 +1,99 @@
+#include <Modbusino.h>
+#include <SoftwareSerial.h>
 
+#define RE 8
+#define DE 7
+#define MODE_PIN 4
+#define PROT_PIN 5
+
+SoftwareSerial rs485(2,3);
+
+Modbusino slave(1);
+ModbusinoMaster master;
+
+uint16_t hr[10];
+bool coils[10];
+
+bool modeMaster = false;
+bool modeRTU = true;
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(RE, OUTPUT);
+  pinMode(DE, OUTPUT);
+  pinMode(MODE_PIN, INPUT_PULLUP);
+  pinMode(PROT_PIN, INPUT_PULLUP);
+
+  digitalWrite(RE, LOW);
+  digitalWrite(DE, LOW);
+
+  rs485.begin(9600);
+
+  if(digitalRead(MODE_PIN)==LOW) modeMaster=true;
+  if(digitalRead(PROT_PIN)==LOW) modeRTU=false;
+
+  if(!modeMaster){
+    slave.begin(modeRTU ? MODBUSINO_RTU : MODBUSINO_ASCII, rs485);
+    hr[0]=0;
+    hr[1]=0;
+    coils[0]=false;
+    coils[1]=false;
+  } else {
+    master.begin(1, modeRTU ? MODBUSINO_RTU : MODBUSINO_ASCII, rs485);
+  }
+}
+
+void loop() {
+  if(!modeMaster){
+    slave.poll(coils,10,hr,10);
+
+    hr[0] = analogRead(A0);
+    analogWrite(9, hr[1] > 255 ? 255 : hr[1]);
+
+    digitalWrite(13, coils[0]);
+    digitalWrite(6, coils[1]);
+    coils[2] = digitalRead(10);
+
+    Serial.print("SLAVE ");
+    Serial.print(hr[0]);
+    Serial.print(" ");
+    Serial.print(hr[1]);
+    Serial.print(" ");
+    Serial.print(coils[0]);
+    Serial.print(" ");
+    Serial.print(coils[1]);
+    Serial.print(" ");
+    Serial.println(coils[2]);
+
+    delay(100);
+  } else {
+    digitalWrite(RE, HIGH);
+    digitalWrite(DE, HIGH);
+    master.writeSingleRegister(4, analogRead(A0));
+    delay(50);
+
+    master.readHoldingRegisters(3,2);
+    uint16_t a = 0;
+    uint16_t b = 0;
+
+    if(master.available()){
+      a = master.read();
+      b = master.read();
+    }
+
+    digitalWrite(RE, LOW);
+    digitalWrite(DE, LOW);
+
+    analogWrite(9, b > 255 ? 255 : b);
+
+    Serial.print("MASTER ");
+    Serial.print(a);
+    Serial.print(" ");
+    Serial.println(b);
+
+    delay(100);
+  }
+}
 
 <div align="center">
 
